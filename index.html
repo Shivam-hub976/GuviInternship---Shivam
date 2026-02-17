@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Guvi Internship Authentication System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">
+                <i class="fas fa-lock"></i> Guvi Internship
+            </span>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="jumbotron text-center">
+                    <h1 class="display-3">
+                        <i class="fas fa-user-shield"></i> welcome
+                    </h1>
+                    <p class="lead">Authentication System - Guvi Internship Project</p>
+                    <hr class="my-4">
+                    <p>A secure user registration and login system with profile management using MySQL, MongoDB, and
+                        Redis.</p>
+
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <a class="btn btn-primary btn-lg btn-block" href="login.html" role="button">
+                                <i class="fas fa-sign-in-alt"></i> Login
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="btn btn-success btn-lg btn-block" href="register.html" role="button">
+                                <i class="fas fa-user-plus"></i> Register
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fas fa-info-circle"></i> Features
+                        </h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Secure Registration:</strong> Create a new account with
+                                email and password.</li>
+                            <li class="list-group-item"><strong>User Login:</strong> Authenticate with your credentials
+                                using Redis-based sessions.</li>
+                            <li class="list-group-item"><strong>Profile Management:</strong> Store and update your
+                                profile details (Age, DOB, Contact).</li>
+                            <li class="list-group-item"><strong>Hybrid Database:</strong> MySQL for authentication,
+                                MongoDB for profile data.</li>
+                            <li class="list-group-item"><strong>Security:</strong> Prepared statements, hashed
+                                passwords, and secure tokens.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5 mb-3 text-muted">
+        <p>&copy; 2026 Guvi Internship. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
